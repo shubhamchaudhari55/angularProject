@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sniglet:wght@400;800&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow: hidden;
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* 
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+  font-size: 30px;
+}
+
+header .nav-link:hover {
+  color: black;
+} */
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+  margin: auto;
+  bottom: -50px;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+header {
+  /* background: #ff512f; */
+  /* fallback for old browsers */
+  /* background: var(--bggradient); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../../../assets/img144.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  
+}
+
+header .container .col-md-7 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  padding: 0.1em 0em;
+  font-style: italic;
+}
+
+
+.primary-btn{
+  border-bottom: inset;
+  border-color:  rgb(75, 125, 164);
+  font-weight: bold;
+  color: white;
+  background-color: rgb(106, 191, 255);
+  border-radius: 0px;
+  margin-top: 50px;
+}
+
+/********** section 1 **************/
+
+.section-1 {
+  padding: 20vmin 0vmin;
+}
+
+.section-1 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*  Section 2  */
+
+.cover {
+  width: 100%;
+  height: 55vmin;
+  /* background: url("../assets/pexels-photo-452738.jpeg"); */
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+}
+
+.cover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.cover .content {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding-top: 19vmin;
+}
+
+.cover .content > h1 {
+  font-family: var(--Patua);
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.cover .content > p {
+  font-family: var(--Rubik);
+  font-size: 2vmin;
+  color: #e5e5e5;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: white;
+  width: 17rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+
+.numbers {
+  margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+  font-size: 5rem;
+  color: tomato;
+}
+
+.numbers .rect > p {
+  font-family: var(--Patua);
+}
+
+.purchase > h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+  font-family: var(--Lobster);
+}
+
+.purchase > p {
+  color: var(--light-black);
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+  width: 22rem;
+  margin: 3vmin 3vmin;
+}
+
+.cards div {
+  padding: 0;
+  margin: 0;
+}
+
+.cards .title {
+  background: rgba(208, 241, 241, 0.199);
+  padding: 1.4em 2.5em;
+  font-size: 2vmin;
+}
+
+.card .card-text {
+  padding: 2.5rem 3rem;
+  color: var(--light-black);
+}
+
+.card-body .pricing {
+  background: rgba(208, 241, 241, 0.199);
+  border-top-right-radius: 170px;
+  border-top-left-radius: 170px;
+}
+
+.card-body .pricing > h1 {
+  font-size: 10vmin;
+  padding: 1em 0.5em;
+}
+
+/* Section 3 */
+
+.section-3 {
+  height: 90vmin;
+  /* margin-top: 15vmin; */
+  background: #ffffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  
+}
+
+.section-3 .col-md-12 > h1 {
+  margin-top: 10px;
+  color: rgb(66, 66, 66);
+  font-size: 6vmin;
+}
+.section-3 .col-md-12 > h3 {
+  color: rgb(49, 49, 49);
+  font-size: 4vmin;
+  margin-top: 70px;
+  font-style: italic;
+}
+.section-3 .col-md-12 > hr{
+  color: #0099ff;
+  border-width: 3px;
+  border-color: #0099ff;
+  width: 90px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 2px;
+  
+}
+
+.section-3 .col-md-12 > p {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 2em;
+  color: #444444;
+  font-size: 3vmin;
+  width: 50%;
+
+}
+.section-3 .col-md-12 .btn {
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #44b4ff;
+  background: white;
+  border-width: 2px;
+  border-color: #44b4ff;
+  border-radius: 5px;
+
+}
+
+
+
+/* Section Team */
+
+.section-4{
+  background: rgb(29, 31, 34);
+  height: 55vmin;
+
+}
+.section-4 .container h3 {
+  font-size: 20px;
+  padding-top: 14vmin;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+}
+.section-4 .container .input::placeholder{
+  padding-left: 5px;
+  width: 360px;
+  color: white;
+  font-style: italic;
+
+}
+.section-4 .container .input{
+  margin-top: 20px;
+  width: 360px;
+  border-width: 2px;
+  border-color: #44b4ff;
+  border-radius: 5px;
+  color: white;
+  background:rgb(29, 31, 34);
+  
+}
+
+
+.section-4 .team {
+  padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+  width: 22em;
+  margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+  padding: 0.5em;
+}
+
+.section-4 .card-body > a {
+  font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+  padding-left: 3rem;
+}
+
+.border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  padding: 14vmin 18vmin;
+}
+footer p{
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+footer p > span{
+  text-align: center;
+  margin: auto;
+  color: rgb(255, 80, 32);
+}
+footer .container-fluid{
+  margin: auto;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+
+/* It is Adjacent sibling combinator */
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
+
+/* Form */
+.modal-content{
+  width: 450px;
+  border-radius: 0px;
+  border-width: 0px;
+
+}
+.modal-header{
+  background: rgb(35, 174, 255);
+  border-radius: 0px;
+
+}
+.close{
+  color: #fff;
+}
+h5{
+  color: #ffffff;
+  padding-top: 10px;
+}
+.modal-body{
+  margin-top: -20px;
+}
+.form{
+  margin-top: -20px;
+}
+
+.hit{
+  width: 450px;
+}
+.shub p{
+  text-align: left;
+  padding-top: 15px;
+  margin-left: 20px;
+  color: white;
+  font-weight: 400;
+}
+.shub{
+  background: rgb(73, 188, 255);
+  width: 450px;
+  margin-left: -42px;
+  height: 60px;
+  margin-top: -10px;
+}
+.mit{
+  width: 390px;
+  margin-top: 10px;
+}
+.mit .form{
+  justify-content: center;
+  margin-left: 10px;
+
+}
+.mit .form .form-group #lab{
+  width: 150px;
+  margin-right: 20px;
+  display: inline;
+}
+.form .form1{
+  margin-bottom: -15px;
+}
+.form .form-control{
+  width: 320px;
+}
+.form-group input::placeholder{
+ color: rgb(0, 0, 0,0.4);
+}
+.form-group label{
+  color: rgba(5, 5, 5, 0.5);
+  vertical-align:middle;
+  margin-left: 5px;
+  margin-bottom: 10px;
+
+}
+.form .ran input{
+  width: 250px;
+  margin-left: 35px;
+  height: 0px;
+}
+.ran{
+  margin-top: -10px;
+}
+.form .ran label{
+  margin-top: 10px;
+}
+
+.form .btn{
+  margin-top: 10px;
+  float: right;
+}
+.form .btn-primary{
+  margin-right: 35px;
+  margin-left: 20px;
+  background: rgb(35, 174, 255);
+  padding: 5px 25px;
+  border-radius: 2px;
+}
+.form .btn-outline-dark{
+  padding: 5px 25px;
+  border-radius: 2px;
+}

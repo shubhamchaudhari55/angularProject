@@ -1,0 +1,147 @@
+footer{
+  background: rgb(29, 31, 34);
+  height: 55vmin;
+
+}
+footer .container h3 {
+  font-size: 20px;
+  padding-top: 14vmin;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+}
+footer .container .input::placeholder{
+  padding-left: 5px;
+  width: 360px;
+  color: white;
+  font-style: italic;
+
+}
+footer .container .input{
+  margin-top: 20px;
+  width: 360px;
+  border-width: 2px;
+  border-color: #44b4ff;
+  border-radius: 5px;
+  color: white;
+  background:rgb(29, 31, 34);
+  
+}
+
+
+footer .team {
+  padding: 10vmin 4vmin;
+}
+
+footer .card {
+  width: 22em;
+  margin-top: 10vmin;
+}
+
+footer .card .card-text {
+  padding: 0.5em;
+}
+
+footer .card-body > a {
+  font-size: 1.5em;
+}
+
+footer .carousel-item {
+  padding-left: 3rem;
+}
+
+.section-3 {
+  height: 150vmin;
+  /* margin-top: 15vmin; */
+  background: #ffffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  
+}
+
+.section-3 .col-md-12 > h1 {
+  margin-top: 10px;
+  color: rgb(66, 66, 66);
+  font-size: 6vmin;
+}
+.section-3 .col-md-12 > h3 {
+  color: rgb(49, 49, 49);
+  font-size: 4vmin;
+  margin-top: 70px;
+  font-style: italic;
+}
+.section-3 .col-md-12 > hr{
+  color: #0099ff;
+  border-width: 3px;
+  border-color: #0099ff;
+  width: 90px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 2px;
+  
+}
+
+.section-3 .col-md-12 > p {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 2em;
+  color: #444444;
+  font-size: 3vmin;
+  width: 50%;
+
+}
+.section-3 .col-md-12 .btn {
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #44b4ff;
+  background: white;
+  border-width: 2px;
+  border-color: #44b4ff;
+  border-radius: 5px;
+
+}
+
+.mainbox{
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 10vw;
+  display: inline-flex;
+}
+.box1 h3{
+  color: #44b4ff;
+  margin-left: -130px
+}
+.box1 img{
+  width: 200px;
+  margin-top: 20px;
+}
+.b1{
+  margin-top: 8px;
+  display: inline-flex;
+}
+.b1 .btn{
+  border-radius: 0px;
+  border-bottom-color: #b78b04;
+  border-width: 2px;
+}
+.btn1{
+  margin-left: 10px;
+}
+.box2{
+  margin-left: -35rem;
+}
+p{
+  margin-top: 60px;
+  width:50%;
+  margin-left: 400px;
+  padding-left: 20%;
+  text-align: justify;
+}
+.box2 .btn-success{
+  border-radius: 0px;
+  margin-left: 20rem;
+  padding-right: 40px;
+}

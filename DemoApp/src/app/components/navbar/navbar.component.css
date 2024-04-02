@@ -1,0 +1,82 @@
+header,
+section {
+  overflow: hidden;
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar{
+  margin-top: 20px;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  font-size: 30px;
+  background-color: #fff;
+  color: #000000;
+  margin-left: 60px;
+  
+}
+
+header .nav-link:hover {
+  color: black;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+  margin: auto;
+  bottom: -50px;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
